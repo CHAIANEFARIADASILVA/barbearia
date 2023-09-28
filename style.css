@@ -3,10 +3,11 @@
     }
 
     h1,
-    h2  {
-      text-align: center;
+    h2 {
+        text-align: center;
     }
-    .principal{
+
+    .principal {
         background: #9994ed;
         padding-top: 10px;
         padding-bottom: 10px;
@@ -23,18 +24,44 @@
         color: #FF0000;
     }
 
-     #banner{
+    #banner {
         width: 100%;
-        margin-top:  20px;
-        margin-bottom:  20px;
-     }
-     #missão{
-        font-size:  20px;
-     }
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #missão {
+        font-size: 20px;
+    }
 
 
-     ul{
+    ul {
         display: inline-block;
         vertical-align: top;
-        margin-right:  15%;
-     }
+        margin-right: 15%;
+    }
+
+    header {
+        background: #BBBBBB;
+        display: flex;
+        flex-direction: row;
+    }
+
+    nav {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    nav li {
+        display: inline;
+        margin: 0 0 0 15px;
+    }
+
+    nav a {
+        text-transform: uppercase;
+        color: #000000;
+        font-weight: bold;
+        font-size: 22px;
+        text-decoration: none;
+    }
