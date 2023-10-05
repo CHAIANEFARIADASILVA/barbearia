@@ -65,3 +65,16 @@
         font-size: 22px;
         text-decoration: none;
     }
+
+    .container {
+        width: 940px;
+        margin: auto;
+    }
+
+    header div.container {
+        display: flex;
+    }
+
+    .logo{
+        height: 150px;
+    }
