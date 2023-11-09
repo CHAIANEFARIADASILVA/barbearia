@@ -14,8 +14,6 @@
     }
 
 
-
-
     .principal p {
         text-align: center;
     }
@@ -75,6 +73,19 @@
         display: flex;
     }
 
-    .logo{
+    .logo {
         height: 150px;
+    }
+
+    footer {
+        text-align: center;
+        padding: 40PX 0;
+        background: grey;
+        margin-top: 50px;
+    }
+
+    copyright {
+        color: #FFFFFF;
+        font-size:  13PX;
+        margin: 20px 0 0;
     }
