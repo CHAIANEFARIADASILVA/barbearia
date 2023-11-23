@@ -89,3 +89,19 @@
         font-size:  13PX;
         margin: 20px 0 0;
     }
+
+    form{
+        margin: 40px 0 ;
+    }
+
+    form label{
+        display:blok;
+        font-size: 20x;
+        margin: 0 0 10px;
+    }
+    form input{
+        display: block;
+        margin: 0 0 20px;
+        padding: 10px 25px;
+        width: 50%;
+    }
